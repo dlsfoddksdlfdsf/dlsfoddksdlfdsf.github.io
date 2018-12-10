@@ -1,141 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+</head>
 <style>
 body{
-	background-color:#f5efd2;
-}
-.clear{
-	clear: both;
-}
-*{
-padding: 0;
-margin: 0;
-}
-
-header{
-width:995px;
-height: 100px;
-margin-top: 10px;
-
-}
-#logo{
-float: left;
-text-align: center;
-}
-#top{
-float: right;
-margin: 30px 20px 0 0;
-font-family: 'Maplestory';
-color:#dab370;
-text-align: center;
-}
-li{
-list-style-type: none;
-}
-nav{
-width:995px;
-height: 70px;
-margin-top: 10px;
-}
-nav li{
-float: center;
-}
-section{
-width:674px;
-height: 240px;
-float: left;
-margin-top: 10px;
-
-}
-aside{
-width:290px;
-height: 240px;
-float: left;
-margin-top: 10px;
-margin-left: 20px;
-}
-
-h2{
+background-color:#f5efd2;
 font-family: 'Maplestory';
 color:#dab370;
 }
-footer{
-width:995px;
-height: 130px;
-margin-top: 10px;
+h3{
+font-family: 'Maplestory';
+color:#dab370;
 }
-table, td{
-		border:solid 1px #dab370;
-	}
-	
-	table{
-		border-collapse:collapse;
-	}
-	table{
-		width:610px;
-		font-size: 12px;
-		border-top: solid 2px #dab370;
-		margin-top: 15px;
-	}
-	tr{
-		height:60px;
-		vertical-align: top;
-	}
-	td{
-		width:76px;
-		padding:5px;
-	}
-	
-	body{
-		font-family: 'Maplestory';
-		color:#dab370;
+#text{
+font-family: 'Maplestory';
+color:#dab370;
 }
-     #page{
-          width:995px;
-            margin:0 auto;
-		}
-		
 </style>
-
 <body>
-<div id='page'>
-<header>
-<div id='logo'>
-<img src='img/Cat.png'>
-</div>
-
-<div id='top'>
-로그인 │ 회원가입 │ 사이트 맵 │ 회사소개
-</div>
-</header>
-<div class='clear'></div><!--float 속성 해제-->
-<nav>
-<ul>
-<li><a href='Schedule.html'><img src='img/manu2.png'></a></li>
-<li><a href='image.html'><img src='img/manu3.png'></a></li>
-<li><a href='naver.html'><img src='img/manu4.png'></a></li>
-<li><a href='login.html'><img src='img/manu5.png'></a></li>
-</ul>
-</nav>
-
-<section>
-<img src='img/main-01.png'>
-</section>
-<aside>
-<ul><img src='img/side-01.png'></li>
-</ul>
-</aside>
-
-<div class='clear'></div>
-
-<footer>
-<img src='img/footer-01.png'>
-</footer>
-
+<h3>개인 신상 정보 입력</h3>
+<from>
+<table>
+<tr>
+-이름 : <input type='text'><br><br>
+-비밀번호 : <input type='password'><br><br>
+-성별 : <input type='radio'> 남성 <input type='radio'> 여성<br><br>
+-취미 : <input type='checkbox'> 영화감상 <input type='checkbox'> 게임 <input type='checkbox'> 음악듣기<br><br>
+-파일 첨부 : <input type='file'><br><br>
+-이메일 : <input type='text'>@
+<select>
+<option>----선택----</option>
+<option>naver.com</option>
+<option>hanmail.net</option>
+<option>직접입력</option>
+</select><br><br>
+-자기소개 : <textarea rows='5' cols='32'></textarea>
+<br><br>
+<butten>확인</butten>
+</from>
 </body>
-</head>
 </html>
-
-
-
